@@ -75,7 +75,7 @@ concurrency:
 
 jobs:
   build-tweaks:
-    uses: ./.github/workflows/_build_tweaks.yml
+    uses: ./.github/workflows/_build_tweaks_2.yml
     with:
       enable_youpip: ${{ inputs.enable_youpip }}
       enable_ytuhd: ${{ inputs.enable_ytuhd }}
